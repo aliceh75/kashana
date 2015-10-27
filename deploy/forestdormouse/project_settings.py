@@ -9,7 +9,7 @@ from os import path
 # This is the directory inside the project dev dir that contains the django
 # application
 project_name = "kashana"
-user = "aliceh75"
+github_user = "aliceh75"
 
 # The django apps that are part of this project - used for running tests
 # and migrations
@@ -17,7 +17,7 @@ django_apps = ['appconf', 'contacts', 'dashboard', 'logframe']
 
 # repository type can be "cvs", "svn" or "git"
 repo_type = "git"
-repository = 'git@github.com:' + user + '/' + project_name + '.git'
+repository = 'git@github.com:' + github_user + '/' + project_name + '.git'
 
 ##################################################################
 # THESE SETTINGS MAY WELL BE CORRECT FOR A STANDARD DJANGO PROJECT
