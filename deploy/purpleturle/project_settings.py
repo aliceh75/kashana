@@ -9,7 +9,7 @@ from os import path
 # This is the directory inside the project dev dir that contains the django
 # application
 project_name = "kashana"
-github_user = "aptivate"
+github_user = "aliceh75"
 
 # The django apps that are part of this project - used for running tests
 # and migrations
